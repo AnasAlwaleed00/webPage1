@@ -1,0 +1,49 @@
+body {
+    font-family:Helvetica, sans-serif;
+}
+.container {
+    width:900px;
+    margin:auto;
+}
+/* Start Header */
+header .TopPic {
+    background-image:url(../../images/home-bg-slideshow1.jpg);
+    height:450px;
+    background-size:cover;
+}
+header .TopPic .intro {
+    text-align:center;
+    color:#FFF;
+    padding-top:200px;
+}
+header .TopPic .intro h1 {
+    border-top:4px solid #fff;
+    border-bottom:4px solid #fff;
+    width:400px;
+    margin: 0 auto;
+    padding:5px;
+    
+}
+header .TopPic .intro Button {
+    background:none;
+    color:#FFF;
+    margin-top:15px;
+    padding:4px 7px;
+    font-size:20px;
+    border:2px solid;
+}
+header nav {
+    background-color:#252F31;
+    color:#fff;
+}
+header nav ul {
+    list-style:none;
+    text-align:center;
+    overflow: hidden;
+    width:450px;
+    margin:0 auto;
+}
+header nav ul li {
+    float:left;
+    padding:15px 10px;
+}
